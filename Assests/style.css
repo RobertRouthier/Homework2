@@ -1,0 +1,81 @@
+* {
+    background-color: orange;
+    color: white ;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: x-large;
+    
+    
+}
+
+header{
+    padding:30px;
+    
+   
+    
+}
+.nav li{
+    box-sizing: border-box;
+    float: right;
+    font-size: x-large;
+    display: inline-block;
+    margin: 10px;
+    margin-top: -20px;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+   
+}
+
+#sections{
+    width: 60%;
+}
+.projects{
+    width: 60%;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.projects h2{
+    padding: 30px;
+    
+}
+.projects .float-left{
+    float: left;
+    margin: 25px;
+}
+
+.projects p{
+    
+    display: inline-block;
+  
+   align-self: center;
+   
+}
+
+.about{
+    width: 70%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.contact {
+    margin-right: px;
+    padding: 10px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 50%;
+    margin-top: -700px;
+    
+}
+.contact h2{
+   
+}
+
+footer h3{
+   align-self: right;
+
+}
