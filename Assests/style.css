@@ -1,18 +1,18 @@
 * {
     background-color: orange;
     color: white ;
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: x-large;
-    
-    
+    font-family: 'Muli', sans-serif !important;
+    font-size: xx-large
+}
+html{
+    scroll-behavior: smooth;
 }
 
 header{
     padding:30px;
-    
-   
-    
+      
 }
+
 .nav li{
     box-sizing: border-box;
     float: right;
@@ -33,22 +33,22 @@ h1{
 #sections{
     width: 60%;
 }
-.projects{
+#projects{
     width: 60%;
-    display: inline-block;
+    display: block;
     margin-left: 20px;
     
 }
-.projects h2{
+#projects h2{
     padding: 30px;
     
 }
-.projects .float-left{
+#projects .float-left{
     float: left;
     margin: 25px;
 }
 
-.projects p{
+#projects p{
     
     display: inline-block;
   
@@ -56,26 +56,28 @@ h1{
    
 }
 
-.about{
+#about{
     width: 70%;
-    display: inline-block;
+    display: block;
     margin-left: 20px;
 }
-.contact {
-    margin-right: px;
+#contact {
     padding: 10px;
     clear: both;
     float: right;
     width: 20%;
     height: 50%;
-    margin-top: -700px;
+    margin-top: -1535px;
+    flex-direction: column;
+    
     
 }
-.contact h2{
+#contact h2{
    
 }
 
 footer h3{
-   align-self: right;
+   margin-left: 350px;
+    margin-top: 400px;
 
 }
