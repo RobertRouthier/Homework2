@@ -1,6 +1,6 @@
 * {
-    background-color: orange;
-    color: white ;
+    background-color: orange; 
+    color: white ; 
     font-family: 'Muli', sans-serif !important;
     font-size: xx-large
 }
@@ -13,71 +13,84 @@ header{
       
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero {
+    height: 300px;;
+    background-image: url("/Users/robertrouthier/Desktop/Robert-Routhier-Homework/Homework2/Homework2/IMG_3013.jpeg");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
 .nav li{
     box-sizing: border-box;
     float: right;
     font-size: x-large;
     display: inline-block;
     margin: 10px;
-    margin-top: -20px;
+    list-style-type: none;
+    
    
 }
 
-h1{
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bolder;
-   
+.nav li a {
+    text-decoration: none;
 }
+
+
 
 #sections{
-    width: 60%;
-}
-#projects{
-    width: 60%;
-    display: block;
-    margin-left: 20px;
     
+    display: flex;
+    position: relative;
+    flex-flow: column wrap;
+    height: 100%
+    
+   
 }
+
+
 #projects h2{
     padding: 30px;
     
 }
-#projects .float-left{
-    float: left;
-    margin: 25px;
-}
 
-#projects p{
+
+
+
+#projects{
+    width: 60%;
+    height: 50%;
     
-    display: inline-block;
-  
-   align-self: center;
-   
-}
 
+}
 #about{
-    width: 70%;
-    display: block;
-    margin-left: 20px;
+    width: 60%;
+    height: 50%;
+    
 }
 #contact {
-    padding: 10px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 50%;
-    margin-top: -1535px;
-    flex-direction: column;
+    padding: 5px;
+    height: 100%;
+    width: 40%;
     
     
-}
-#contact h2{
-   
 }
 
+#contact a{
+    text-decoration: none;
+}
 footer h3{
-   margin-left: 350px;
-    margin-top: 400px;
-
+    align-self: center;
+    text-align: center;
 }
+
